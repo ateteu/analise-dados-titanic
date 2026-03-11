@@ -31,8 +31,8 @@ Fonte:
 data/
 titanic.csv
 
-notebook/
-titanic.ipynb
+notebooks/
+analise-titanic.ipynb
 
 ## Autor
 

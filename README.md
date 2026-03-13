@@ -1,16 +1,14 @@
-# Titanic Data Analysis
-
+# Análise de dados do Titanic
 Pequeno projeto de análise exploratória do dataset Titanic utilizando Python.
 
 ## Objetivo
 
-Praticar manipulação e exploração de dados com Pandas, incluindo:
+Praticar manipulação e exploração de dados com Pandas, incluindo, potencialmente:
 
 - carregamento de dados
 - inspeção do dataset
-- tratamento de valores nulos
-- agrupamentos e agregações
-- visualização simples
+- tratamento de valores nulos e inválidos
+- análise dos dados
 
 ## Dataset
 
@@ -36,4 +34,4 @@ analise-titanic.ipynb
 
 ## Autor
 
-Mateus
+Mateus - https://github.com/ateteu

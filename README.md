@@ -10,18 +10,18 @@ Explorar e entender os dados dos passageiros, identificando padrões e fatores q
 
 O dataset contém informações sobre passageiros do Titanic:
 
-- identificador
-- nome
-- idade
-- sexo
-- classe
-- número de parentes próximos e cônjuges a bordo (SibSp)
-- número de parentes (pais) e filhos a bordo (Parch)
-- tarifa paga
-- cabine
-- identificador do tiquete
-- porto de embarque
-- sobrevivência (0|1)
+- Identificador
+- Nome
+- Idade
+- Sexo
+- Classe
+- Número de parentes próximos e cônjuges a bordo (SibSp)
+- Número de parentes (pais) e filhos a bordo (Parch)
+- Tarifa paga
+- Cabine
+- Identificador do tiquete
+- Porto de embarque
+- Se sobreviveram ou não ao desastre
 
 Fonte: https://github.com/datasciencedojo/datasets
 
@@ -37,14 +37,15 @@ O projeto segue as seguintes etapas:
 
 ## Principais análises
 
-Durante a exploração, foram analisados fatores como:
+Durante a exploração, foram analisados:
 
-- distribuição de idade dos passageiros
-- proporção de sobreviventes
-- impacto do sexo e idade na sobrevivência
-- influência da classe social na sobrevivência
+- Distribuição de idade dos passageiros
+- Proporção de sobreviventes
+- Impacto do sexo e idade na sobrevivência
+- Influência da classe social na sobrevivência
+- Dentre outros
 
-## Conclusões e insights
+## Insights
 
 - Pela investigação inicial, notou-se que o dataset já se encontrava relativamente bem tratado: não havia valores absurdos ou muitos campos faltantes. Porém, a coluna `Cabin` não apresentava dados suficientes e foi ignorada na análise
 - A maioria dos passageiros embarcou no porto de Southampton (Inglaterra)
@@ -56,8 +57,10 @@ Durante a exploração, foram analisados fatores como:
 - Idosos (60+ anos) tiveram a maior taxa de mortalidade (acima de 70%)
 - Crianças (especificamente bebês) também apresentaram taxa de sobrevivência mais elevada
 
+## Conclusão
+
 Com base nesses insights, é possível inferir que houve um claro protocolo de priorização de mulheres e crianças durante o desastre, o que resultou em maiores taxas de sobrevivência nesses grupos.
 
-Além disso, observa-se um padrão de desigualdade socioeconômica: poucos passageiros das classes mais altas, que pagaram tarifas mais elevadas, apresentaram maior taxa de sobrevivência, enquanto a maioria dos passageiros da 3ª classe, com tarifas mais baixas, foi mais afetada.
+Além disso, observa-se um padrão de desigualdade socioeconômica: poucos passageiros das classes mais altas, que pagaram tarifas mais elevadas, apresentaram maior taxa de sobrevivência; enquanto passageiros da 3ª classe, com tarifas mais baixas, foram mais afetados.
 
-Este projeto contribuiu para consolidar habilidades em manipulação de dados, análise exploratória e visualização utilizando Pandas, NumPy e MatPlotLib.
+De forma geral, este projeto contribuiu para consolidar habilidades em manipulação de dados, análise exploratória e visualização utilizando Pandas, NumPy e MatPlotLib.
